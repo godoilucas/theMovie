@@ -1,0 +1,23 @@
+{
+    "name": "godoilucas/the-movie",
+    "description": "Movies API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Godoi",
+            "email": "godoi.lucas@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "erandir/plug-route": "^3.9"
+    }
+}
